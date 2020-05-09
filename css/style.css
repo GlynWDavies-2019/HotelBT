@@ -69,8 +69,8 @@ p {
 }
 
 .bg-primary {
-    background: #333333;
-    color: #F7C08A;
+    background: #F7C08A;
+    color: #333333;
 }
 
 .btn:hover {
@@ -166,4 +166,17 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+
+.box {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
