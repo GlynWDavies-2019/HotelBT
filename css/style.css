@@ -53,6 +53,26 @@ p {
     padding: 13px 20px;
 }
 
+.btn-light {
+    background: #F4F4F4;
+    color: #333333;
+}
+
+.bg-dark {
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.bg-light {
+    background: #F4F4F4;
+    color: #333333;
+}
+
+.bg-primary {
+    background: #333333;
+    color: #F7C08A;
+}
+
 .btn:hover {
     background: #F7C08A;
     color: #333333;
@@ -116,4 +136,34 @@ p {
 #showcase .showcase-content p {
     line-height: 1.5em;
     padding-bottom: 20px;
+}
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    background: url('../images/photo-1.jpg') no-repeat;
+    float: left;
+    min-height: 100%;
+    width: 50%;
+}
+
+#home-info .info-content {
+    float: right;
+    height: 100%;
+    overflow: hidden;
+    padding: 50px 30px;
+    text-align: center;
+    width: 50%;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
